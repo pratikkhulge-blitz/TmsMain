@@ -25,7 +25,6 @@ class AdminAuthorizer {
 
     const { email, role }: { email: string; role: string } = tokenData.data;
 
-    // Check if the admin with the email exists in the database
     try {
       const admin: any | null = await Admin.findOne({ email });
       if (!admin) {
