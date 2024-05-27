@@ -1,0 +1,91 @@
+/* OtpVerification.scss */
+
+.otp-verification-bg {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px ;
+  }
+  
+  .otp-container {
+    max-width: 24rem;
+    // width: 100%;
+    padding: 1rem;
+    width: 5000px;
+  }
+  
+  .otp-card {
+    background-color: #fff;
+    border-radius: 0.75rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
+    width: 450px;
+    padding-right: 30px; 
+
+
+  }
+  
+  .otp-content {
+    padding: 2rem;
+  }
+  
+  .otp-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #5a67d8;
+    margin-bottom: 1.5rem;
+  }
+  
+  .otp-label {
+    display: block;
+    margin-bottom: 0.75rem;
+    color: #4a5568;
+    font-size: 0.875rem;
+  }
+  
+  .otp-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #cbd5e0;
+    border-radius: 0.375rem;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  .otp-input:focus {
+    outline: none;
+    border-color: #4299e1;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+  }
+  
+  .otp-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #5a67d8;
+    color: #fff;
+    border: none;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    margin-left: 0.6rem;
+  }
+  
+  .otp-button:hover {
+    background-color: #434190;
+  }
+  
+  .otp-resend-text {
+    font-size: 0.875rem;
+    color: #4a5568;
+    margin-top: 1.5rem;
+  }
+  
+  .otp-resend-link {
+    color: #5a67d8;
+    text-decoration: none;
+  }
+  
+  .otp-resend-link:hover {
+    text-decoration: underline;
+  }
+  

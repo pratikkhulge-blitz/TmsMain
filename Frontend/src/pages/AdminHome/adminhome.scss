@@ -1,0 +1,225 @@
+// /* Home.scss */
+
+// .home-container {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     padding: 2rem;
+//   }
+  
+//   .department-card {
+//     background-color: #fff;
+//     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+//     border-radius: 0.5rem;
+//     padding: 1.5rem;
+//     margin-bottom: 1.5rem;
+//     cursor: pointer;
+//     position: relative;
+//   }
+  
+//   .ticket-card {
+//     background-color: #fff;
+//     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+//     border-radius: 0.5rem;
+//     padding: 1.5rem;
+//     margin-bottom: 1.5rem;
+//     cursor: pointer;
+//   }
+  
+//   .ticket-status {
+//     font-weight: bold;
+//   }
+  
+//   /* DepartmentDetailsModal.scss */
+  
+//   .department-details-modal {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     background-color: rgba(0, 0, 0, 0.5);
+//     z-index: 1000;
+//   }
+  
+//   .department-details-content {
+//     background-color: #fff;
+//     padding: 2rem;
+//     border-radius: 0.5rem;
+//     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+//   }
+  
+//   /* TicketDetailsModal.scss */
+  
+//   .ticket-details-modal {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     background-color: rgba(0, 0, 0, 0.5);
+//     z-index: 1000;
+//   }
+  
+//   .ticket-details-content {
+//     background-color: #fff;
+//     padding: 2rem;
+//     border-radius: 0.5rem;
+//     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+//   }
+//   // adminhome.scss
+
+// // Define styles for the main container
+// .admin-container {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     background-color: #f0f0f0;
+//     padding: 20px;
+//     height: 100vh;
+  
+//     .header {
+//       background-color: #3f51b5;
+//       color: white;
+//       padding: 20px;
+//       width: 100%;
+//       text-align: center;
+//       font-size: 24px;
+//       font-weight: bold;
+//       margin-bottom: 20px;
+//     }
+  
+//     .logout-btn {
+//       background-color: #ffffff;
+//       color: #3f51b5;
+//       border: 2px solid #3f51b5;
+//       padding: 8px 16px;
+//       font-size: 16px;
+//       font-weight: bold;
+//       border-radius: 5px;
+//       cursor: pointer;
+//       transition: background-color 0.3s, color 0.3s;
+  
+//       &:hover {
+//         background-color: #3f51b5;
+//         color: #ffffff;
+//       }
+//     }
+  
+//     .departments-section,
+//     .tickets-section {
+//       width: 100%;
+//       max-width: 1200px;
+//       display: grid;
+//       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+//       gap: 20px;
+//       padding: 20px;
+//     }
+  
+//     .box {
+//       background-color: #ffffff;
+//       border: 1px solid #cccccc;
+//       padding: 20px;
+//       border-radius: 8px;
+//       cursor: pointer;
+//       transition: box-shadow 0.3s;
+  
+//       &:hover {
+//         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+//       }
+  
+//       .title {
+//         font-size: 18px;
+//         font-weight: bold;
+//         margin-bottom: 10px;
+//       }
+  
+//       .details {
+//         color: #666666;
+//       }
+//     }
+  
+//     .filter-btn {
+//       position: fixed;
+//       bottom: 20px;
+//       right: 20px;
+//       background-color: #3f51b5;
+//       color: white;
+//       border: none;
+//       padding: 15px 20px;
+//       border-radius: 50%;
+//       font-size: 24px;
+//       cursor: pointer;
+//       transition: background-color 0.3s;
+  
+//       &:hover {
+//         background-color: #2a3f9d;
+//       }
+//     }
+  
+//     .filter-modal {
+//       position: fixed;
+//       top: 0;
+//       left: 0;
+//       width: 100%;
+//       height: 100%;
+//       display: flex;
+//       align-items: center;
+//       justify-content: center;
+//       background-color: rgba(0, 0, 0, 0.5);
+  
+//       .modal-content {
+//         background-color: #ffffff;
+//         padding: 30px;
+//         border-radius: 10px;
+//         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+//         width: 400px;
+  
+//         h2 {
+//           font-size: 24px;
+//           font-weight: bold;
+//           margin-bottom: 20px;
+//         }
+  
+//         label {
+//           display: block;
+//           margin-bottom: 10px;
+//         }
+  
+//         select,
+//         input {
+//           width: 100%;
+//           padding: 10px;
+//           border: 1px solid #cccccc;
+//           border-radius: 5px;
+//           margin-bottom: 20px;
+//         }
+  
+//         button {
+//           background-color: #3f51b5;
+//           color: white;
+//           border: none;
+//           padding: 10px 20px;
+//           border-radius: 5px;
+//           cursor: pointer;
+//           transition: background-color 0.3s;
+  
+//           &:hover {
+//             background-color: #2a3f9d;
+//           }
+  
+//           &.cancel-btn {
+//             background-color: #cccccc;
+//             margin-right: 10px;
+//           }
+//         }
+//       }
+//     }
+//   }
+  

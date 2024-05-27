@@ -1,0 +1,45 @@
+{
+  "name": "tms_backend",
+  "version": "1.0.0",
+  "description": "This is the Backend for TMS",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "start": "node dist/app.js",
+    "dev": "npx tsc -w & nodemon dist/app.js"
+  },
+  "keywords": [],
+  "author": "Pratik Khulge",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "crytpo-js": "^0.0.1-security",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.0",
+    "nodemailer": "^6.7.7",
+    "otp-generator": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/nodemailer": "^6.4.15",
+    "@types/otp-generator": "^4.0.2",
+    "nodemon": "^3.1.0",
+    "typescript": "^5.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratikkhulge/TMS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pratikkhulge/TMS/issues"
+  },
+  "homepage": "https://github.com/pratikkhulge/TMS#readme"
+}
