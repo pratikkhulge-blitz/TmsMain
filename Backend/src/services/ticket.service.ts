@@ -131,22 +131,6 @@ class TicketService {
     }
   }
 
-  // async showTicketsInOrganization(req: Request, res: Response) {
-  //   try {
-  //     // Authorize user
-  //     const { authorized, organisation, email } = await this.userAuthorizer.authorizeUser(req, res);
-  //     if (!authorized) {
-  //       return res.status(403).json({ success: false, message: 'Unauthorized: Only authenticated users can view tickets' });
-  //     }
-
-
-  //     const tickets = await Ticket.find({ organisation, assignee: email });
-  //     res.status(200).json({ tickets });
-  //   } catch (error : any) {
-  //     res.status(500).json({ message: 'Failed to fetch tickets', error: error.message });
-  //   }
-  // }
-
   async showTicketsInOrganization(req: Request, res: Response) {
     try {
       // Authorize user
